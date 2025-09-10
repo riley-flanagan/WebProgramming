@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My test page</title>
+
+
+</head>
+
+
+
+<body>
+
+    <form action="https://www.w3schools.com/action_page.php." method="get">…
+        <section>
+            <h2>Welcome to Stumpweight Coffee</h2>
+
+            <p> How may we take your order? </p>
+
+
+            <p>
+                <label for="name">
+                    <span>Customer Name:</span>
+                </label>
+                <input type="name" id="name" name="customer-name" placeholder="John Coffee" />
+            </p>
+
+            <p>
+                <label for="email">
+                    <span>Email Address:</span>
+                </label>
+                <input type="email" id="email" name="email" placeholder="JohnCoffee@coffee.com" />
+            </p>
+
+
+            <p>
+                <label for="coffee">
+                    <span>Coffee Type:</span>
+                </label>
+                <select id="coffee" name="flavor">
+                    <option value="amex">Frozen Dubai Mocha</option>
+                    <option value="visa">London Fog</option>
+                    <option value="mc">Macha Latte</option>
+
+                </select>
+            </p>
+
+            <fieldset>
+                <legend>Size:</legend>
+                <ul>
+                    <li>
+                        <label for="Large">Large</label>
+                        <input type="radio" id="Large" name="size" value="Large" />
+                    </li>
+                    <li>
+                        <label for="Medium">Medium</label>
+                        <input type="radio" id="Medium" name="size" value="Medium" />
+                    </li>
+                    <li>
+                        <label for="Small">Small</label>
+                        <input type="radio" id="Small" name="size" value="Small" />
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Extras:</legend>
+                <ul>
+                    <li>
+                        <label for="cream">Whipped Cream</label>
+                        <input type="checkbox" id="cream" name="extra" value="cream" />
+                    </li>
+                    <li>
+                        <label for="espresso">Add Espresso</label>
+                        <input type="checkbox" id="espresso" name="extra" value="espresso" />
+                    </li>
+                    <li>
+                        <label for="almond_milk">Use Almond Milk</label>
+                        <input type="checkbox" id="almond_milk" name="almond_milk" value="almond milk" />
+                    </li>
+                </ul>
+            </fieldset>
+
+            <p>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" placeholder="Special Instructions or Comments..."></textarea>
+            </p>
+
+        </section>
+
+        <p class="button">
+            <button type="submit">Send your order</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
